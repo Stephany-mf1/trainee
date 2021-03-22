@@ -1,5 +1,5 @@
 function someFunction(x:number) {
-    return 10 * x;
+    return 2 * x;
 }
 
 // teste 1

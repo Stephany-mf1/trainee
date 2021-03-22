@@ -1,5 +1,5 @@
 function someFunction(x) {
-    return 10 * x;
+    return 2 * x;
 }
 // teste 1
 var resultado = someFunction(1);
