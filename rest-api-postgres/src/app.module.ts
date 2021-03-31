@@ -10,7 +10,7 @@ import { StudentsModule } from './students/students.module';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: 'WNVfg6j9Qv77n98Z',
+      password: '<senha>',
       database: 'trainee',
       autoLoadEntities: true,
       synchronize: true,
