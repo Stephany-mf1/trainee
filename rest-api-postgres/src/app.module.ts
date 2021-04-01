@@ -7,11 +7,11 @@ import { StudentsModule } from './students/students.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
-      port: 5432,
-      username: 'postgres',
-      password: '<senha>',
-      database: 'trainee',
+      host: process.env.ORM_HOST,
+      port: Number.parseInt(process.env.ORM_PORT),
+      username: process.env.ORM_USER,
+      password: process.env.ORM_PASS,
+      database: process.env.ORM_DB,
       autoLoadEntities: true,
       synchronize: true,
     }),
